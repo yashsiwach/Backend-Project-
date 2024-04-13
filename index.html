@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAIN</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bdy">
+    <center>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info rounded">
+        <a class="navbar-brand" href="#">"Discover Freshness at Every Corner: Welcome to Fresh Front Shop!"</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost:3000/login">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost:3000/signup">Logout</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col">
+                <img id="slideshow" style="position: relative; box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);" class="img-fluid" src="banner.jpg" alt="Landscape Image">
+            </div>
+        </div>
+    
+        <div class="row mt-4">
+            <div class="col-4">
+                <div class="item-box">
+                    <img src="item1.jpg" class="img-fluid" alt="Item 1">
+                    <h5>Orange Juice</h5>
+                    <button class="btn btn-warning" onclick="redirectToOrderPage()">Buy Now</button>
+                </div>
+            </div>
+    
+            <div class="col-4">
+                <div class="item-box">
+                    <img src="item2.jpg" class="img-fluid" alt="Item 2">
+                    <h5>Cherry Juice</h5>
+                    <button class="btn btn-warning" onclick="redirectToOrderPage()">Buy Now</button>
+                </div>
+            </div>
+    
+            <div class="col-4">
+                <div class="item-box">
+                    <img src="item3.jpg" class="img-fluid" alt="Item 3">
+                    <h5>Strawberry Juice</h5>
+                    <button class="btn btn-warning" onclick="redirectToOrderPage()">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row mt-4">
+            <div class="col-4">
+                <div class="item-box">
+                    <img src="item4.jpg" class="img-fluid" alt="Item 1">
+                    <h5>Cake</h5>
+                    <button class="btn btn-warning" onclick="redirectToOrderPage()">Buy Now</button>
+                </div>
+            </div>
+    
+            <div class="col-4">
+                <div class="item-box">
+                    <img src="item5.jpg" class="img-fluid" alt="Item 2">
+                    <h5>Cold Drinks</h5>
+                    <button class="btn btn-warning" onclick="redirectToOrderPage()">Buy Now</button>
+                </div>
+            </div>
+    
+            <div class="col-4">
+                <div class="item-box">
+                    <img src="item6.jpg" class="img-fluid" alt="Item 3">
+                    <h5>Milk</h5>
+                    <button class="btn btn-warning" onclick="redirectToOrderPage()">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function redirectToOrderPage() {
+            window.location.href = "order.html";
+        }
+    </script>
+    
+<footer class="footer">
+    <div class="container text-center">
+        <div class="running-text">
+            <span>UPDATE !!!!  </span>
+            <span>Home Delevery Available</span>
+         
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    </center>
+</body>
+
+</html>

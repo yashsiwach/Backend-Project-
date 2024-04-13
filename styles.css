@@ -1,0 +1,120 @@
+.item-box {
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.item-box:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.item-box img {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.running-text {
+    white-space: nowrap; /* Prevent line break */
+    overflow: hidden; /* Hide overflowing content */
+    animation: running 10s linear infinite; /* Animation for running text */
+}
+
+.running-text span {
+    margin-right: 20px; /* Space between text segments */
+}
+
+@keyframes running {
+    from { transform: translateX(100%); } /* Initial position */
+    to { transform: translateX(-100%); } /* Move to the left */
+}
+.img-fluid{
+    align-content: center;
+    width: 80%;
+}
+.item-box {
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px; /* Round the corners of the box */
+}
+
+.item-box:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.btn-warning{
+    color: red;
+}
+body {
+    background: linear-gradient(to bottom, #87CEEB, #FFFFFF); /* Sky blue to white gradient */
+}
+.item-box {
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px; /* Round the corners of the box */
+}
+
+.item-box:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.item-box img {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    object-fit: cover; /* Maintain aspect ratio */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow to item image */
+}
+
+.item-box button {
+    background-color: #87CEEB; /* Light blue background color */
+    color: white; /* Text color */
+    border: none; /* Remove button border */
+}
+
+.item-box button:hover {
+    background-color: #5bc0de; /* Darker shade of light blue on hover */
+}
+.item-box {
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px; /* Round the corners of the box */
+}
+
+.item-box:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.item-box img {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    object-fit: cover; /* Maintain aspect ratio */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow to item image */
+}
+
+.item-box button {
+    background-color: #87CEEB; /* Light blue background color */
+    color: black; /* Text color */
+    border: none; /* Remove button border */
+}
+
+.item-box button:hover {
+    background-color: #5bc0de; /* Darker shade of light blue on hover */
+}
